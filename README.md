@@ -1,8 +1,8 @@
 
-Dejavu c++ port (audio fingerprinting library)
+Dejavu c++ port (audio fingerprinting)
 ==========
 
-This is a c++ implementation of the fingerprinting algorithm suggested in the dejavu audio fingerprinting project (specifically: the fingerprint.py file). [link on how dejavu works](http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
+This is a c++ implementation of the fingerprinting algorithm suggested in the [dejavu audio fingerprinting project] (https://github.com/worldveil/dejavu) (specifically: the fingerprint.py file). [link on how dejavu works](http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
 
 ## Prerequisites:
 - opencv (= 3.4.5)
@@ -17,7 +17,7 @@ The "fingerprint" function will accept array of floats as an input (raw audio pc
 2. In theory: performance boost. In practise: didn't see much difference.
 
 ## Demo
-The main function will load a test mp3 file, uncompressed it using ffmpeg (as a mono channel, 22050 sample rate), feed to fingerprint function, then prints the list of hashes-offsets.  
+The main function will load a test mp3 file, uncompressed it using ffmpeg (as a mono channel, 22050 sample rate), feed it to fingerprint function, then prints the list of hashes-offsets.  
 
 ## Final notes
 - I don't have much experience working with c++. I wrote this code initially for prototype purposes. while I have tested the correctness of the algorithm output, I didn't optimise the code to c++ best standards. If you want to improve the code in this manner I will gladly accept pull requests.
