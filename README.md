@@ -2,7 +2,7 @@
 Dejavu c++ port (audio fingerprinting)
 ==========
 
-This is a c++ implementation of the fingerprinting algorithm suggested in the [dejavu audio fingerprinting project] (https://github.com/worldveil/dejavu) (specifically: the fingerprint.py file). [link on how dejavu works](http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
+This is a c++ implementation of the fingerprinting algorithm suggested in the dejavu audio fingerprinting project (https://github.com/worldveil/dejavu specifically: the fingerprint.py file). [link on how dejavu works](http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
 
 ## Prerequisites:
 - opencv (= 3.4.5)
